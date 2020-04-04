@@ -1,0 +1,9 @@
+172.19.0.1 - - [03/Apr/2020:22:41:56 +0000] "GET / HTTP/1.1" 404 346 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 0
+172.21.0.1 - - [04/Apr/2020:11:42:57 +0000] "GET /admin/stats.xsl HTTP/1.1" 200 3062 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 0
+172.21.0.1 - - [04/Apr/2020:11:42:57 +0000] "GET /style.css HTTP/1.1" 200 4138 "http://localhost:8000/admin/stats.xsl" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 0
+172.21.0.1 - - [04/Apr/2020:11:42:59 +0000] "GET /admin/stats.xsl HTTP/1.1" 200 3062 "http://localhost:8000/admin/stats.xsl" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 0
+172.21.0.1 - - [04/Apr/2020:11:42:59 +0000] "GET /style.css HTTP/1.1" 200 4138 "http://localhost:8000/admin/stats.xsl" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 0
+172.21.0.1 - - [04/Apr/2020:11:43:02 +0000] "GET /admin/listmounts.xsl HTTP/1.1" 200 1233 "http://localhost:8000/admin/stats.xsl" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 3
+172.21.0.1 - - [04/Apr/2020:11:43:02 +0000] "GET /style.css HTTP/1.1" 200 4138 "http://localhost:8000/admin/listmounts.xsl" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 0
+172.21.0.1 - - [04/Apr/2020:11:43:03 +0000] "GET /admin/stats.xsl HTTP/1.1" 200 3062 "http://localhost:8000/admin/listmounts.xsl" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 1
+172.21.0.1 - - [04/Apr/2020:11:43:03 +0000] "GET /style.css HTTP/1.1" 200 4138 "http://localhost:8000/admin/stats.xsl" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 0

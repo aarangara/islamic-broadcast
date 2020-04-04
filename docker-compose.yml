@@ -1,0 +1,9 @@
+version: '3'
+services:
+  islamic_broadcast:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./icecast-files/icecast.xml:/etc/icecast.xml
+      - ./icecast-files/logs:/var/log/icecast
