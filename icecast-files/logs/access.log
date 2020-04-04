@@ -7,3 +7,8 @@
 172.21.0.1 - - [04/Apr/2020:11:43:02 +0000] "GET /style.css HTTP/1.1" 200 4138 "http://localhost:8000/admin/listmounts.xsl" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 0
 172.21.0.1 - - [04/Apr/2020:11:43:03 +0000] "GET /admin/stats.xsl HTTP/1.1" 200 3062 "http://localhost:8000/admin/listmounts.xsl" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 1
 172.21.0.1 - - [04/Apr/2020:11:43:03 +0000] "GET /style.css HTTP/1.1" 200 4138 "http://localhost:8000/admin/stats.xsl" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 0
+172.21.0.1 - - [04/Apr/2020:12:14:35 +0000] "GET / HTTP/1.1" 200 1399 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 0
+172.21.0.1 - - [04/Apr/2020:12:14:35 +0000] "GET /style.css HTTP/1.1" 200 4138 "http://localhost:8000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 0
+172.21.0.1 - - [04/Apr/2020:12:14:36 +0000] "GET /icecast.png HTTP/1.1" 200 5333 "http://localhost:8000/style.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 1
+172.21.0.1 - - [04/Apr/2020:12:17:44 +0000] "GET /admin/ HTTP/1.1" 200 3062 "http://localhost:8000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 2
+172.21.0.1 - - [04/Apr/2020:12:17:44 +0000] "GET /style.css HTTP/1.1" 200 4138 "http://localhost:8000/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0" 0
