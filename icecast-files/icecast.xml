@@ -219,22 +219,24 @@
     -->
 
     <mount type="normal">
-        <mount-name>/masjid1.ogg</mount-name>
+        <mount-name>/masjidumar-taleem.ogg</mount-name>
 
         <max-listeners>500</max-listeners>
-        <dump-file>/tmp/dump-masjid1.ogg</dump-file>
+        <dump-file>/tmp/masjidumar-taleem.ogg</dump-file>
         <burst-size>65536</burst-size>
         <hidden>false</hidden>
         <public>true</public>
-        <username>masjid1</username>
-        <password>123</password>
+        <username>ayakub</username>
+        <password>Ayakub</password>
+        <stream-name>Masjid Umar Taleem</stream-name>
+        <stream-description>This channel will stream Taleem for sathis of Masjid Umar</stream-description>
         <authentication>
             <role type="htpasswd" connections-per-user="1">
                 <option name="filename" value="myauth" />
             </role>
             <role type="static" allow-method="source,put,get,post,options" deny-web="*" allow-admin="*">
-                <option name="username" value="masjid1user" />
-                <option name="passwod" value="masjid1admin" />
+                <option name="username" value="ayakub" />
+                <option name="passwod" value="Ayakub" />
             </role>
             <role type="anonymous" allow-all="*" />
         </authentication>
@@ -253,6 +255,7 @@
         </event-bindings>
     </mount>
     
+<!--
     <mount type="normal">
         <mount-name>/masjid2.ogg</mount-name>
 
@@ -288,6 +291,7 @@
         </event-bindings>
     </mount>
     
+-->
     <!--
     <mount type="normal">
         <mount-name>/auth_example.ogg</mount-name>
